@@ -9,15 +9,15 @@
 </head>
 <body>
     <main id="tabor" class="row">
-        <header>Tábor</header>
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <header class="col-md-12">Tábor</header>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light col-md-12">
             <div class="container-fluid">
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Kezdőlap</a>
                 </li>
                <li class="nav-item">
-                  <a class="nav-link" href="">Találd ki milyen házba tartozol!</a>
+                  <a class="nav-link" href="kviz.html">Találd ki milyen házba tartozol!</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="tabor.html">Tábor</a>
@@ -25,24 +25,47 @@
               </ul>
             </div>
           </nav>
+          <aside class="col-md-3">képek</aside>
+          <article class="col-md-6 row">
           <form>
             <div class="form-group">
-            <h2>Email cím</h2>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter cím">
-              <h2>Hány éves vagy?</h2>
-              <div class="input-group">
-                <div class="input-group-text">
-              <select class="form-control form-control-lg input-group-prepend">
-                <option>10-12</option>
-                <option>12-16</option>
-                <option>16-20</option>
-                <option>20-22</option>
-              </select>
-            </div>
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Küldés</button>
+                <div class="p-2">
+                    <h3>Gyerek neve:</h3>
+                        <input type="email" class="form-control" id="Nev"  placeholder="Gyerek neve"></div>
+                <div class="p-2">
+                    <h3>Születési éve:</h3>
+                        <input type="email" class="form-control" id="Taj"  placeholder="éééé. hh. nn."></div>
+                <div class="p-2">
+                    <h3>TAJ szám:</h3>
+                        <input type="email" class="form-control" id="Taj"  placeholder="Taj"></div>
+                <div class="p-2">
+                    <h3>Lakcím:</h3>
+                        <input type="email" class="form-control" id="Lakcim"  placeholder="Lakcím"></div>
+                <div class="p-2">
+                    <h3>Gyermek esetleges betegség:</h3>
+                        <input type="email" class="form-control" id="Betegség"  placeholder=""></div>
+                <div class="p-2">
+                    <h3>(Szülői)Email cím:</h3>
+                        <input type="email" class="form-control" id="email"  placeholder="Email cím"></div>
+                <div class="p-2">
+                    <h3>Mobil telefonszám:</h3>
+                        <input type="email" class="form-control" id="Telefonszám"  placeholder="Mobilszám"></div>
+                <div class="p-2">
+                    <h3>Hány éves vagy?</h3>
+                        <select class="form-select form-select-sm">
+                            <option>10-12</option>
+                            <option>12-16</option>
+                            <option>16-18</option>
+                        </select></div>
+                <div class="p-2">
+                    <h3>Mennyire ismered a Harry Potter-t?</h3>
+
+              
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary col-md-3 " >Küldés</button></div>
           </form>
+        </article>
+        <aside class="col-md-3">képek</aside>
     </main>
 </body>
 </html>
