@@ -8,11 +8,11 @@
     <title>Erdős Viktória</title>
 </head>
 <body>
-    <main id="kviz">
-        <header>
+    <main id="kviz" class="container-fluid row">
+        <header class="col-md-12">
             <h1>Kvíz</h1>
         </header>
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light col-md-12">
             <div class="container-fluid">
               <ul class="navbar-nav">
                 <li class="nav-item">
@@ -27,79 +27,93 @@
               </ul>
             </div>
           </nav>
-          <article>
+          <article class="col-md-8">
             <h2>Kíváncsi vagy, hogy vajon melyik házba tartozol? Ez a kvíz segít, hogy kitaláld!</h2>
             <p>Válaszolj a rövid kérdésekre és azonnal megkapod a kérdésedre a választ.</p>
 
-            <form action="get">
-                <div>
-                    <label for="">a</label>
-                    <input type="radio" name="elso1" id="elso">
-                    <input type="radio" name="elso2" id="elso">
-                    <input type="radio" name="elso3" id="elso">
-                    <input type="radio" name="elso4" id="elso">
-                    <input type="radio" name="elso5" id="elso">
+            <form action="#" class="row">
+                <div class="form-check col-md-4">
+                    <label for="elso"  class="form-check-label">Bármikor készen állok beleugrani bármilyen kalandba.</label>
+                    <div>
+                        <label for="elso1" class="form-check-label">Nagyon nem értek egyet</label>
+                        <input type="radio" id="elso1" name="elso" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="elso2" class="form-check-label">Nem értek egyet</label>
+                        <input type="radio" id="elso2" name="elso" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="elso3" class="form-check-label">Semleges</label>
+                        <input type="radio" id="elso3" name="elso" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="elso4" class="form-check-label">Kicsit egyet értek</label>
+                        <input type="radio" id="elso4" name="elso" class="form-check-input"> 
+                    </div>
+                    <div>
+                        <label for="elso5" class="form-check-label">Nagyon egyet értek</label>
+                        <input type="radio" id="elso5" name="elso" class="form-check-input">
+                    </div>
                 </div>
-                <div>
-                    <label for="">
-                    </label><input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
+                <div class="form-check col-md-4">
+                    <label for="masodik"  class="form-check-label">Imádom a veszélyes szituációkat.</label>
+                    <div>
+                        <label for="masodik1" class="form-check-label">Nagyon nem értek egyet</label>
+                        <input type="radio" id="masodik1" name="masodik" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="masodik2" class="form-check-label">Nem értek egyet</label>
+                        <input type="radio" id="masodik2" name="masodik" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="masodik3" class="form-check-label">Semleges</label>
+                        <input type="radio" id="masodik3" name="masodik" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="masodik4" class="form-check-label">Kicsit egyet értek</label>
+                        <input type="radio" id="masodik4" name="masodik" class="form-check-input"> 
+                    </div>
+                    <div>
+                        <label for="masodik5" class="form-check-label">Nagyon egyet értek</label>
+                        <input type="radio" id="masodik5" name="masodik" class="form-check-input">
+                    </div>
                 </div>
-                <div>
-                    <label for="">
-                    </label><input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
+                <div class="form-check col-md-4">
+                    <label for="elso"  class="form-check-label">Nagyon szeretek tanulni.</label>
+                    <div>
+                        <label for="elso1" class="form-check-label">Nagyon nem értek egyet</label>
+                        <input type="radio" id="elso1" name="elso" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="elso2" class="form-check-label">Nem értek egyet</label>
+                        <input type="radio" id="elso2" name="elso" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="elso3" class="form-check-label">Semleges</label>
+                        <input type="radio" id="elso3" name="elso" class="form-check-input">
+                    </div>
+                    <div>
+                        <label for="elso4" class="form-check-label">Kicsit egyet értek</label>
+                        <input type="radio" id="elso4" name="elso" class="form-check-input"> 
+                    </div>
+                    <div>
+                        <label for="elso5" class="form-check-label">Nagyon egyet értek</label>
+                        <input type="radio" id="elso5" name="elso" class="form-check-input">
+                    </div>
                 </div>
-                <div>
-                    <label for="">
-                    </label><input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                </div>
-                <div>
-                    <label for="">
-                    </label><input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                </div>
-                <div>
-                    <label for="">
-                    </label><input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                </div>
-                <div>
-                    <label for="">
-                    </label><input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                </div>
-                <div>
-                    <label for="">
-                    </label><input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-                </div>
-
                 <input type="submit" value="Kérem a választ!">
             </form>
           </article>
+          <aside class="col-md-4">
+            <h2 class="text-center">A házakról röviden</h2>
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="kepek/griffendel.jpg" alt="Griffendél">
+                <div class="card-body">
+                  <h4 class="card-title">Griffendél</h4>
+                  <p class="card-text">Leírás</p>
+                </div>
+              </div>
+          </aside>
     </main>
 </body>
 </html>
