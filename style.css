@@ -1,3 +1,23 @@
 .tabor3{
     background-image: url(Harry_Potter_hatter.jpg);
 }
+
+main, .barna{
+    background-color: #ad835e;
+    color: #261506;
+}
+
+.barna-txt{
+    background-color: #FFE5CE;
+    border-color: #753934;
+}
+
+nav{
+    background-color: #753934;
+}
+
+.button{
+    background-color: #753934;
+    color: #FFE5CE;
+    border-color: #4A1916;
+}
