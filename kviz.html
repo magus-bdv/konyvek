@@ -27,7 +27,7 @@
               </ul>
             </div>
           </nav>
-          <article class="col-md-8 col-sm-12">
+          <article class="col-md-8 col-sm-12 my-4">
             <h2>Kíváncsi vagy, hogy vajon melyik házba tartozol? Ez a kvíz segít, hogy kitaláld!</h2>
             <p>Válaszolj a rövid kérdésekre és azonnal megkapod a kérdésedre a választ.</p>
 
@@ -242,37 +242,63 @@
                 <input type="submit" value="Kérem a választ!" class="col-lg-6 col-sm-12 mx-auto button">
             </form>
           </article>
-          <aside class="col-md-4 col-sm-12 row">
+          <aside  class="col-md-4 col-sm-12 my-4">
+            <h3>Eszedbe jutott egy jó kérdés a kvízhez, ami szerinted tetszene nekünk?</h3>
+            <p>Küldj be egy kérvényt itt:</p>
+            <form action="#">
+                <div>
+                <div class="form-floating mt-3 mb-3">
+                    <input type="text" class="form-control barna-txt" id="nev" placeholder="Írd be a neved" name="nev">
+                    <label for="nev">Név</label>
+                  </div>
+                <div class="form-floating mb-3 mt-3">
+                    <input type="text" class="form-control barna-txt" id="email" placeholder="Írd be az email-ed" name="email">
+                    <label for="email">Email</label>
+                  </div>
+                <div class="form-control p-0 border-0">
+                    <textarea class="form-control barna-txt" id="kerdes" name="kerdes" placeholder="Kérdés" rows="4"></textarea>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input class="form-check-input barna-txt" type="checkbox" id="hirlevel" name="hirlevel">
+                    <label class="form-check-label" for="mySwitch">Szeretnék hírlevelet kapni</label>
+                  </div>
+                  <input type="submit" value="Elküld" class="button" style="width: 50%;min-width: 250px;">
+            </form>
+          </aside>
+          <article class="col-md-12 row my-4">
             <h2 class="text-center col-md-12">A házakról röviden</h2>
-            <div class="card col-md-12 col-lg-6 barna p-2">
+            <div class="card col-md-3 col-sm-6 barna p-2">
                 <img class="card-img-top" src="kepek/griffendel.jpg" alt="Griffendél">
                 <div class="card-body">
                   <h4 class="card-title">Griffendél</h4>
                   <p class="card-text">A Griffendél ház a bátorság, lovagiasság, vakmerőség, és kitartás vonásait hangsúlyozza, így tagjait bátornak, bár néha meggondolatlannak tartották. Néhány Griffendélesre még az indulatosság is jellemző.</p>
                 </div>
               </div>
-              <div class="card col-md-12 col-lg-6 barna p-2">
+              <div class="card col-md-3 col-sm-6 barna p-2">
                 <img class="card-img-top" src="kepek/mardekar.jpg" alt="Mardekár">
                 <div class="card-body">
                   <h4 class="card-title">Mardekár</h4>
                   <p class="card-text">A Mardekár házba kerülnek a ravaszak és becsvágyóak. Feltehető, hogy a ház tagjai között kevesebb a mugli származású, mint a többi házban, de azt nem mondhatjuk, hogy csak aranyvérűek tartoznának ide</p>
                 </div>
               </div>
-              <div class="card col-md-12 col-lg-6 barna p-2">
+              <div class="card col-md-3 col-sm-6 barna p-2">
                 <img class="card-img-top" src="kepek/hollohat.jpg" alt="Hollóhát">
                 <div class="card-body">
                   <h4 class="card-title">Hollóhát</h4>
                   <p class="card-text">A Hollóhát házban a legnagyobb értékeknek a bölcsesség, az ész és a tanulás szeretete számít. Jelmondata: „Magad azzal ékesíted, ha az elmédet</p>
                 </div>
               </div>
-              <div class="card col-md-12 col-lg-6 barna p-2">
+              <div class="card col-md-3 col-sm-6 barna p-2">
                 <img class="card-img-top" src="kepek/hugrabug.jpg" alt="Hugrabug">
                 <div class="card-body">
                   <h4 class="card-title">Hugrabug</h4>
                   <p class="card-text">A Hugrabug-házban nagyra tartott értékek a hűség, becsületesség, sportszerűség és tisztességes munka. A Teszlek Süveg mindazonáltal azokat a tanulókat is ebbe a házba sorolja, akik nem rendelkeznek semmilyen kiemelkedő tulajdonsággal.</p>
                 </div>
               </div>
-          </aside>
+          </article>
+          <footer class="col-md-12 my-4">
+
+          </footer>
     </main>
 </body>
 </html>
